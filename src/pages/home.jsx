@@ -19,7 +19,7 @@ import ContactSection from '../components/landing/contact-section.jsx';
  */
 function Home() {
   return (
-    <Box sx={{ width: '100%' }}>
+    <Box id="top" sx={{ width: '100%' }}>
       <Header />
       <HeroSection />
       <AboutSection />

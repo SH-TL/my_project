@@ -4,6 +4,7 @@ import { ThemeProvider } from '@mui/material/styles'
 import CssBaseline from '@mui/material/CssBaseline'
 import App from './App.jsx'
 import theme from './theme.js'
+import '@fontsource/playfair-display/600-italic.css'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
