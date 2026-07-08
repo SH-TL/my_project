@@ -111,11 +111,7 @@ function HeroSection() {
 
         <Stack
           direction="row"
-          sx={{
-            justifyContent: 'space-between',
-            alignItems: 'flex-end',
-            pr: { xs: '68px', sm: 0 },
-          }}
+          sx={{ justifyContent: 'space-between', alignItems: 'flex-end' }}
         >
           <Typography
             variant="caption"
